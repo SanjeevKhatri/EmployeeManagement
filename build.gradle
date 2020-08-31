@@ -18,7 +18,7 @@ dependencies {
     compile "org.mariadb.jdbc:mariadb-java-client:2.6.0"
     compile "org.flywaydb:flyway-core"
     compile "com.zaxxer:HikariCP"
-    compile("org.springframework.boot:spring-boot-starter-jdbc:'2.3.1.RELEASE") {
+    compile("org.springframework.boot:spring-boot-starter-jdbc:2.3.1.RELEASE") {
         exclude group: "org.apache.tomcat", module: "tomcat-jdbc"
     }
 }
